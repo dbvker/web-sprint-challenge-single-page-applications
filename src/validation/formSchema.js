@@ -2,24 +2,26 @@
 import * as yup from 'yup';
 
 const formSchema = yup.object().shape({
-    username: yup
+    name: yup
         .string()
         .trim()
-        .required('Username is required')
-        .min(3, 'Username must be at least three characters'),
-    email: yup
+        .required('Name is required')
+        .min(2, 'name must be at least 2 characters'),
+    size: yup
         .string()
-        .email('Must be a valid email address')
-        .required('Forgot dat email bro'),
-    role: yup
+        .oneOf(['small', 'medium', 'large'], 'Please choose a size'),
+    sauce: yup
         .string()
-        .oneOf(['instructor', 'student', 'alumni'], 'Role is required!'),
-    civil: yup
-        .string()
-        .oneOf(['married', 'single'], 'Civil status is required!'),
-    hiking: yup.boolean(),
-    reading: yup.boolean(),
-    coding: yup.boolean()
+        .oneOf(['Red', 'Ranch', 'BBQ', 'Alfredo'], 'A sauce is required'),
+    pepperoni: yup.boolean(),
+    sausage: yup.boolean(),
+    tomatoes: yup.boolean(),
+    olives: yup.boolean(),
+    glutenFree: yup.boolean(),
+    special: yup.string(),
+    numOfPizzas: yup
+        .number()
+        .min(1, 'Quantity must be at least 1')
 });
 
 export default formSchema;
