@@ -1,0 +1,12 @@
+.order-section{
+    background: #E0E0E0;
+    padding: 10px 20px;
+}
+
+.order-section-title{
+    font-weight: 500;
+}
+
+.order-section-subtitle{
+    font-size: 14px;
+}

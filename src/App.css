@@ -1,38 +1,41 @@
-.App {
+*{
+  box-sizing: border-box;
+}
+
+/* Order Page */
+.order-container{
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+.order-title{
   text-align: center;
+  padding: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.order-container img{
+  max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.order-container p{
+  margin: 10px 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.order-section-bottom{
+  margin: 10px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.order-section-bottom label{
+  display: block;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sauce-radio{
+  margin-right: 10px;
+}
+
+.order-section-half{
+  display: inline-block;
+  width: 50%;
 }

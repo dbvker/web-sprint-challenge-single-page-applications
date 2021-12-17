@@ -1,10 +1,14 @@
 import React from "react";
 
+// Components
+import ImageHeader from "./components/imageHeader/ImageHeader";
+import RestaurantList from "./components/restaurantList/RestaurantList";
+
 const App = () => {
   return (
     <>
-      <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
+      <ImageHeader title='Your favorite food, delivered while coding' button='Pizza?' linkTo='/order' />
+      <RestaurantList />
     </>
   );
 };
