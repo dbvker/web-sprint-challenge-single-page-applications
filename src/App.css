@@ -5,7 +5,7 @@
 /* Order Page */
 .order-container{
   width: 60%;
-  margin: 0 auto;
+  margin: 10px auto 30px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 }
 
@@ -38,4 +38,9 @@
 .order-section-half{
   display: inline-block;
   width: 50%;
+}
+
+.add-to-order{
+  padding: 10px 20px;
+  border-top: 1px solid #E0E0E0;
 }

@@ -18,7 +18,7 @@ render(
     <Header />
         <Switch>
             <Route exact path='/' component={App} />
-            <Route path='/order' component={Order} />
+            <Route path='/pizza' component={Order} />
             <Route path='/confirmation' component={Confirmation} />
         </Switch>
     </Router>, 

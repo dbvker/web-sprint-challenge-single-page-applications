@@ -14,7 +14,7 @@ const ImageHeader = (props) => {
         <section className='image-container'>
             <div className='image-content'> 
                 <div className='image-title'>{title}</div>
-                {button && <Link to={linkTo}><button>{button}</button></Link>}
+                {button && <Link id='order-pizza' to={linkTo}><button>{button}</button></Link>}
             </div>
         </section>
     )

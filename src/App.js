@@ -7,7 +7,7 @@ import RestaurantList from "./components/restaurantList/RestaurantList";
 const App = () => {
   return (
     <>
-      <ImageHeader title='Your favorite food, delivered while coding' button='Pizza?' linkTo='/order' />
+      <ImageHeader title='Your favorite food, delivered while coding' button='Pizza?' linkTo='/pizza' />
       <RestaurantList />
     </>
   );
