@@ -133,6 +133,7 @@ const Order = () => {
       <div className="order-section-bottom">
         <label>
           <input
+            id='red'
             className="sauce-radio"
             type="radio"
             name="sauce"
