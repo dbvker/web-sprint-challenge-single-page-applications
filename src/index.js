@@ -7,7 +7,7 @@ import "./index.css";
 
 // Views
 import App from "./App";
-import Order from "./views/Order";
+import Pizza from "./views/Pizza";
 import Confirmation from "./views/Confirmation";
 
 // Components
@@ -18,7 +18,7 @@ render(
     <Header />
         <Switch>
             <Route exact path='/' component={App} />
-            <Route path='/pizza' component={Order} />
+            <Route path='/pizza' component={Pizza} />
             <Route path='/confirmation' component={Confirmation} />
         </Switch>
     </Router>, 
