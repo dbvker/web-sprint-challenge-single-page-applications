@@ -44,3 +44,9 @@
   padding: 10px 20px;
   border-top: 1px solid #E0E0E0;
 }
+
+.order-box{
+  width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+}
